@@ -1,18 +1,18 @@
 /* ==========================================================================
    Your Field Name
    ========================================================================== */
-.cf-field.cf-radio .cf-radio__list {
+.cf-field.cf-radio-color .cf-radio__list {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap; }
-  .cf-field.cf-radio .cf-radio__list .cf-radio_color__input {
+  .cf-field.cf-radio-color .cf-radio__list .cf-radio_color__input {
     display: none; }
 
-.cf-field.cf-radio .cf-radio_color__label {
+.cf-field.cf-radio-color .cf-radio_color__label {
   border: 2px solid transparent;
   border-radius: 1000px;
   display: block; }
-  .cf-field.cf-radio .cf-radio_color__label span {
+  .cf-field.cf-radio-color .cf-radio_color__label span {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -20,9 +20,9 @@
     margin: 2px;
     border: 2px solid #ccc; }
 
-.cf-field.cf-radio .cf-radio_color__label.cf-radio_color__label--active {
+.cf-field.cf-radio-color .cf-radio_color__label.cf-radio_color__label--active {
   border-color: red; }
-  .cf-field.cf-radio .cf-radio_color__label.cf-radio_color__label--active span {
+  .cf-field.cf-radio-color .cf-radio_color__label.cf-radio_color__label--active span {
     opacity: .5px;
     display: -webkit-box;
     display: flex;
@@ -30,7 +30,7 @@
             justify-content: center;
     -webkit-box-align: center;
             align-items: center; }
-    .cf-field.cf-radio .cf-radio_color__label.cf-radio_color__label--active span:after {
+    .cf-field.cf-radio-color .cf-radio_color__label.cf-radio_color__label--active span:after {
       display: block;
       content: "\F147";
       font-family: "dashicons";
