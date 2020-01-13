@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Your Field Name
+   ========================================================================== */
+.cf-radio__list{
+  display: flex;
+  flex-wrap: wrap;
+  .cf-radio_color__input{
+    display: none;
+  }
+}
+.cf-radio_color__label{
+  border: 2px solid transparent;
+  border-radius: 1000px;
+  display: block;
+  span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+    margin: 2px;
+    border: 2px solid #ccc;
+  }
+}
+.cf-radio_color__label.cf-radio_color__label--active{
+  border-color: red;
+  span{
+    opacity: .5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:after{
+      display: block;
+      content: "\f147";
+      font-family: "dashicons";
+      font-size: 25px;
+      color: black;
+      text-shadow: 0 0 2px white;
+    }
+  }
+}
